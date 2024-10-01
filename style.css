@@ -9,15 +9,13 @@ body {
     padding: 0;
 }
 
-.sports-page {
-    background-color: aqua;
-}
-
 h1 {
     font-family: "Fondamento", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 3.5em;
+  -webkit-text-stroke: 0.65px goldenrod;
+
 }
 .container {
     text-align: center;
