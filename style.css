@@ -14,7 +14,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 3.5em;
-  -webkit-text-stroke: 0.65px goldenrod;
+ 
 
 }
 .container {
@@ -87,8 +87,9 @@ button {
 .menu a {
     text-decoration: none;
     padding: 10px;
-    font-size: 18px;
+    font-size: 21px;
     color: rgb(227, 253, 253, 0.7); 
+     -webkit-text-stroke: 0.65px goldenrod;
 }
 
 img {
