@@ -9,6 +9,10 @@ body {
     padding: 0;
 }
 
+.sports-page {
+    background-color: aqua;
+}
+
 h1 {
     font-family: "Fondamento", cursive;
     font-weight: 400;
@@ -76,8 +80,17 @@ button {
     background-color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 5px;
-    
-   
+}
+.menu {
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(227, 253, 253, 0.7); 
 }
 
 img {
@@ -119,7 +132,7 @@ img:hover {
 }
 
 
-@media and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     input {
         width: 50%; 
         margin-left: 0; 
@@ -146,7 +159,7 @@ img:hover {
 }
 
 
-@media and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
     .container {
         max-width: 1200px;
         margin: auto;
