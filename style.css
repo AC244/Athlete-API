@@ -119,7 +119,7 @@ img:hover {
 }
 
 
-@media (max-width: 600px) {
+@media and (max-width: 600px) {
     input {
         width: 50%; 
         margin-left: 0; 
@@ -146,7 +146,7 @@ img:hover {
 }
 
 
-@media (min-width: 1025px) {
+@media and (min-width: 1025px) {
     .container {
         max-width: 1200px;
         margin: auto;
