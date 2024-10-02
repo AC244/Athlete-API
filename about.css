@@ -34,3 +34,10 @@ p {
     color: rgb(227, 253, 253, 0.7);
 }
 
+body {
+    margin: 30px;
+}
+
+header h7 p::first-letter {
+    font-size: 2em;
+}
