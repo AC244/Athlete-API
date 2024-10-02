@@ -10,6 +10,11 @@ body {
     -webkit-text-stroke: 0.5px goldenrod
 }
 
+a {
+    font-size: 1.58em;
+    -webkit-text-stroke: 1.5px goldenrod
+}
+
 .menu a {
     text-decoration: none;
     padding: 10px;
@@ -40,4 +45,9 @@ body {
 
 header h7 p::first-letter {
     font-size: 2em;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #343a40;
 }

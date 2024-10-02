@@ -18,7 +18,7 @@ const getPlayer = async (name) => {
                 playerDiv.className = 'player-card';
 
                 const nameElement = document.createElement('h2');
-                nameElement.innerHTML = `Player: ${player.strPlayer}`;
+                nameElement.innerHTML = `${player.strPlayer}`;
                 playerDiv.appendChild(nameElement);
 
                 const imageElement = document.createElement('img');
