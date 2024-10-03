@@ -33,13 +33,13 @@ const getPlayer = async (name) => {
                     <p><strong>DOB:</strong> ${player.dateBorn || 'N/A'}</p>
                     <p><strong>Birthplace:</strong> ${player.strBirthLocation || 'N/A'}</p>
                     <p><strong>Team:</strong> ${player.strTeam || 'N/A'}</p>
-                    <p><strong>Description:</strong> ${player.strDescriptionEN || 'No description available.'}</p>
+                    <p><strong></strong> ${player.strDescriptionEN || 'No description available.'}</p>
                 `;
 
                 const fanartContainer = document.createElement('div');
                 fanartContainer.className = 'fanart-container';
 
-                const fanarts = [player.strFanart1, player.strFanart2, player.strFanart3];
+                const fanarts = [player.strFanart1, player.strFanart2, player.strFanart3, player.strThumb];
                 fanarts.forEach((fanart, index) => {
                     if (fanart) {
                         const imgElement = document.createElement('img');
