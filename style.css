@@ -3,7 +3,7 @@
 
 
 body {
-    font-family: fantasy;
+    font-family: "Fondamento";
     background-color: #000000;
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ div {
 input {
     width: 200px;
     padding: 15px;
-    font-family: fantasy;
+    font-family: "Fondamento";
     font-size: 16px;
     border-radius: 100%;
     text-align: center;
@@ -53,7 +53,7 @@ h2 {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    font-family: fantasy;
+    font-family: "Fondamento";
     margin-left:2px;
 }
  
@@ -138,9 +138,23 @@ img:hover {
 
 
 @media screen and (max-width: 600px) {
+    body {
+        font-family: "Fondamento";
+    }
+    button {
+        font-family: "Fondamento";
+        font-size: 10px;
+    }
     input {
+        font-family: "Fondamento";;
         width: 50%; 
         margin-left: 0; 
+    }
+    menu a {
+        font-size: 12px;
+    }
+    .arrowButton::after {
+        font-size: 7px;
     }
     .fanart-container {
         flex-direction: column;
@@ -154,6 +168,25 @@ img:hover {
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-family: "Fondamento";
+    }
+    button {
+        font-family: "Fondamento";
+        font-size: 10px;
+    }
+    input {
+        font-family: "Fondamento";;
+        width: 50%; 
+        margin-left: 0; 
+    }
+    menu a {
+        font-size: 12px;
+    }
+    .arrowButton::after {
+        font-size: 7px;
+    }
+    
     input {
         width: 40%; 
         margin-left: 20px; 
@@ -165,6 +198,24 @@ img:hover {
 
 
 @media screen and (min-width: 1025px) {
+    body {
+        font-family: "Fondamento";
+    }
+    button {
+        font-family: "Fondamento";
+        font-size: 10px;
+    }
+    input {
+        font-family: "Fondamento";;
+        width: 50%; 
+        margin-left: 0; 
+    }
+    menu a {
+        font-size: 12px;
+    }
+    .arrowButton::after {
+        font-size: 7px;
+    }
     .container {
         max-width: 1200px;
         margin: auto;
