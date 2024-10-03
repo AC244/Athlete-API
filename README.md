@@ -38,7 +38,8 @@ Legends Lounge is a web application that allows users to search for athletes and
 
 ```<input type="text" id="input" placeholder="Enter Athlete">
 <button class="arrowButton"></button>
-<div id="playerName"></div>```
+<div id="playerName"></div>
+```
 
 ### Fetching Player Data:
 
@@ -50,7 +51,8 @@ Legends Lounge is a web application that allows users to search for athletes and
     } catch (error) {
         console.error('Error fetching player data:', error);
     }
-};```
+};
+```
 
 ### Styling with CSS:
 
@@ -69,7 +71,8 @@ input {
     padding: 15px;
     border-radius: 100%;
     background-color: rgb(227, 253, 253, 0.7);
-}```
+}
+```
 
 ## Dependencies
 - Axios for making HTTP requests to the SportsDB API.
