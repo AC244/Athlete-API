@@ -1,49 +1,48 @@
-#Legends Lounge
+# Legends Lounge
 
-##Description
+## Description
 Legends Lounge is a web application that allows users to search for athletes and view detailed information about them. Utilizing the SportsDB API, users can enter an athlete's name to retrieve data such as their sport, position, height, date of birth, birthplace, team, and even fanart images.
 
-##Features
-Search for athletes by name.
-Display athlete information, including:
-Name
-Sport
-Position
-Height
-Date of Birth
-Birthplace
-Team
-Description
-View fanart images related to the athlete.
-Responsive design for optimal viewing on various devices.
+## Features
+- **Search** for athletes by name.
+- **Display** athlete information, including:
+    -   Sport
+    -   Position
+    -   Height
+    -   Date of Birth
+    -   Birthplace
+    -   Team
+    -   Description
+    -   View fanart images related to the athlete.
+- **Responsive design** for optimal viewing on various devices.
 
-##Installation
-Clone the repository:
+## Installation
+- **Clone the repository:**
 
-git clone <repository-url>
+```git clone <repository-url>```
 
-Navigate to the project directory:
+- **Navigate to the project directory:**
 
-cd legends-lounge
+```cd legends-lounge```
 
-Open index.html in your preferred web browser.
+- Open index.html in your preferred web browser.
 
-##Usage
-Enter an athlete's name in the input field.
-Click the "GO" button or press "Enter" to retrieve the athlete's information.
-The results will be displayed below the input field.
+## Usage
+- Enter an athlete's name in the input field.
+- Click the "GO" button or press "Enter" to retrieve the athlete's information.
+- The results will be displayed below the input field.
 
-###Code Snippets
+### Code Snippets
 
-###HTML Structure:
+### HTML Structure:
 
-<input type="text" id="input" placeholder="Enter Athlete">
+```<input type="text" id="input" placeholder="Enter Athlete">
 <button class="arrowButton"></button>
-<div id="playerName"></div>
+<div id="playerName"></div>```
 
-###Fetching Player Data:
+### Fetching Player Data:
 
-const getPlayer = async (name) => {
+```const getPlayer = async (name) => {
     try {
         let response = await axios.get(`https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${name}`);
         const playerData = response.data.player;
@@ -51,11 +50,11 @@ const getPlayer = async (name) => {
     } catch (error) {
         console.error('Error fetching player data:', error);
     }
-};
+};```
 
-###Styling with CSS:
+### Styling with CSS:
 
-body {
+``` body {
     font-family: "Fondamento";
     background-color: #000000;
 }
@@ -70,12 +69,12 @@ input {
     padding: 15px;
     border-radius: 100%;
     background-color: rgb(227, 253, 253, 0.7);
-}
+}```
 
-##Dependencies
-Axios for making HTTP requests to the SportsDB API.
+## Dependencies
+- Axios for making HTTP requests to the SportsDB API.
 
-##API Used
-TheSportsDB API to fetch athlete data.
+## API Used
+- TheSportsDB API to fetch athlete data.
 
 ![LEGENDS-LOUNGE](./athlete-api-diagram.drawio.png)
