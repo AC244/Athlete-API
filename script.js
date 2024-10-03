@@ -33,7 +33,7 @@ const getPlayer = async (name) => {
                     <p><strong>DOB:</strong> ${player.dateBorn || 'N/A'}</p>
                     <p><strong>Birthplace:</strong> ${player.strBirthLocation || 'N/A'}</p>
                     <p><strong>Team:</strong> ${player.strTeam || 'N/A'}</p>
-                    <p><strong></strong> ${player.strDescriptionEN || 'No description available.'}</p>
+                    <p><strong>Description:</strong> ${player.strDescriptionEN || 'No description available.'}</p>
                 `;
 
                 const fanartContainer = document.createElement('div');

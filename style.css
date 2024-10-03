@@ -154,7 +154,7 @@ img:hover {
         font-size: 12px;
     }
     .arrowButton::after {
-        font-size: 7px;
+        font-size: 9.5px;
     }
     .fanart-container {
         flex-direction: column;
@@ -184,7 +184,7 @@ img:hover {
         font-size: 12px;
     }
     .arrowButton::after {
-        font-size: 7px;
+        font-size: 9.5px;
     }
     
     input {
@@ -214,7 +214,7 @@ img:hover {
         font-size: 12px;
     }
     .arrowButton::after {
-        font-size: 7px;
+        font-size: 9.5px;
     }
     .container {
         max-width: 1200px;

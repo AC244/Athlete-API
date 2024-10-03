@@ -2,7 +2,7 @@
 
 
 body {
-    font-family: fantasy;
+    font-family: "Fondamento";
     background-color: #000000;
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ h1 {
 }
 
 p {
-    font-family: "Fondamento", cursive;
+    font-family: "Fondamento";
     font-weight: 400;
     font-style: normal;
     font-size: 1.5em;
