@@ -19,7 +19,7 @@ Legends Lounge is a web application that allows users to search for athletes and
 ## Installation
 - **Clone the repository:**
 
-```git clone <repository-url>```
+```git clone https://github.com/AC244/Athlete-API.git```
 
 - **Navigate to the project directory:**
 
